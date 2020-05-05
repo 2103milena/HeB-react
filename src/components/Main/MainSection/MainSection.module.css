@@ -1,0 +1,21 @@
+.MainSectionImage {
+    width: 99%;
+    /* margin-top: 10px; */
+}
+
+.MainSection {
+    width: 80%;
+    border: solid rgb(204, 204, 204);
+    border-radius: 5px;
+    margin: 50px auto auto auto;
+    background-color: rgb(226, 226, 226);
+    box-shadow: 5px 5px 10px #888888;
+}
+
+@media (min-width: 901px) {
+    
+    .MainSection{
+        width: 800px;
+        padding-top: 30px;     
+    }
+}

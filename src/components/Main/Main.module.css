@@ -1,0 +1,27 @@
+.Najava {
+    width: 100%; 
+    margin-top: 55px;
+    opacity: 0.85;
+}
+
+@media (min-width: 1200px) {
+    .Najava {
+        height: 650px;
+
+    }
+}
+
+
+.Celebrate{
+    color: honeydew;
+    background-color: black;
+    padding: 15px;
+    position: relative;
+    bottom: 5px;
+}
+
+@media(min-width: 900px){
+    .Celebrate{
+        font-size: 2rem;
+    }
+}

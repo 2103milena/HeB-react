@@ -1,0 +1,8 @@
+.Participant{
+    display: inline-table;
+    width: 200px;
+    height: 200px;
+    border: solid 1px rgb(165, 165, 165);
+    margin: 30px 30px 30px 30px;
+    border-radius: 150px;
+}

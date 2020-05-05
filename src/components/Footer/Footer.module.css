@@ -1,0 +1,33 @@
+.Footer {
+    background-color: black;
+    color: honeydew;
+    padding: 30px;
+}
+
+.Face,
+.Twitter,
+.Insta {
+    margin: 20px;
+}
+
+.Social {
+    margin: 30px;
+    display: inline-block;
+}
+
+.PreSocial {
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+@media (min-width: 900px) {
+    .Social {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .PreSocial {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+}

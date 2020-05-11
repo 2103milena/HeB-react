@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import HeaderPr from './HeaderPr/HeaderPr';
-import Aux from '../../../hoc/Aux';
+
 import classes from './PageProgram.module.css'
 
 

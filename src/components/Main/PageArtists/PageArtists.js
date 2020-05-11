@@ -20,6 +20,7 @@ class PageArtists extends Component {
                     <Route path="/artists/teachers" component={Teachers} />
                     <Route path="/artists/DJs" component={DJs} />
                     <Route path="/artists/bands" component={Bands} />
+                    
                     <Route path="/artists" component={Participants} />
                 </Switch>
             </div>

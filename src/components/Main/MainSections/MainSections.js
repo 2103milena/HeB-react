@@ -24,14 +24,14 @@ class MainSections extends Component {
                 image: require('../../../assets/images/elnino.jpg'),
                 alt: 'dva'
             },
-            {
-                title: 'ARTISTS',
-                mainText: 'je je je 3',
-                id: 3, button: 'SEE ALL ARTISTS',
-                name: 'najava2',
-                image: require('../../../assets/images/artists.jpg'),
-                alt: 'tri'
-            }
+            // {
+            //     title: 'ARTISTS',
+            //     mainText: 'je je je 3',
+            //     id: 3, button: 'SEE ALL ARTISTS',
+            //     name: 'najava2',
+            //     image: require('../../../assets/images/artists.jpg'),
+            //     alt: 'tri'
+            // }
         ]
     }
 

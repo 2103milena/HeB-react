@@ -1,14 +1,6 @@
 .Najava {
     width: 100%; 
     margin-top: 55px;
-    opacity: 0.85;
-}
-
-@media (min-width: 1200px) {
-    .Najava {
-        height: 650px;
-
-    }
 }
 
 
@@ -20,8 +12,22 @@
     bottom: 5px;
 }
 
+.FirstPar{
+    margin-bottom: 20px;
+}
+
+.LastPar{
+    margin-top: 20px;
+}
+
 @media(min-width: 900px){
     .Celebrate{
         font-size: 2rem;
+    }
+
+    .Decade{
+        width: 50%;
+        margin: auto;
+        margin-top: 50px;
     }
 }

@@ -12,8 +12,11 @@ import PagePrices from '../Main/PagePrices/PagePrices';
 
 class Layout extends Component {
 
+
+
     state = {
-        showSideDrawer: false
+        showSideDrawer: false,
+        showNewsLetter: false
     }
 
     sideDrawerClosedHandler = () => {
@@ -25,8 +28,10 @@ class Layout extends Component {
             return { showSideDrawer: !prevState.showSideDrawer }
         })
     }
+    
     // Main je PageOne
     render() {
+
         return (
             <div>
 
@@ -37,6 +42,7 @@ class Layout extends Component {
                     open={this.state.showSideDrawer}
                     closed={this.sideDrawerClosedHandler}
                 />
+
                 <Switch>
 
                     <Route path="/artists" component={PageArtists} />

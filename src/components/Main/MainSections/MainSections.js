@@ -14,16 +14,16 @@ class MainSections extends Component {
                 id: 1,
                 button: 'WATCH AFTERMOVIE',
                 name: 'after',
-                image: require('../../../assets/images/after.jpg'), alt: 'jedan'
+                image: require('../../../assets/images/afterr.jpg'), alt: 'jedan'
             },
-            {
-                title: 'LINE UP',
-                mainText: 'Be informed about the artists to come to our festival!',
-                id: 2, button: 'LINE UP',
-                name: 'najava1',
-                image: require('../../../assets/images/elnino.jpg'),
-                alt: 'dva'
-            },
+            // {
+            //     title: 'LINE UP',
+            //     mainText: 'Be informed about the artists to come to our festival!',
+            //     id: 2, button: 'LINE UP',
+            //     name: 'najava1',
+            //     image: require('../../../assets/images/grupna.jpg'),
+            //     alt: 'dva'
+            // }
             // {
             //     title: 'ARTISTS',
             //     mainText: 'je je je 3',
@@ -44,10 +44,10 @@ class MainSections extends Component {
                         <MainSection
                             key={el.id}
                             title={el.title}
-                            text={el.mainText}
                             button={el.button}
                             image={el.image}
                             alt={el.alt}
+                            text = {el.mainText}
                         />
                     )
                 })}

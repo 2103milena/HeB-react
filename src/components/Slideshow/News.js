@@ -47,16 +47,16 @@ const Slide = () => {
     if (state === true) {
 
         firstSlide = <div className={classes.ImgSlide}><img className={classes.Pic} src={newsPic} alt="newss" />
-        <Button onClick={switchToImageHandler}>Let's read the news !</Button></div>
+        <Button onClick={switchToImageHandler}>LET'S READ THE NEWS !</Button></div>
 
         secondSlide = <div className={classes.ImgSlide}><img className={classes.Pic} src={dianaPic} alt="newss" />
-            <Button onClick={switchToImageHandler}>Let's read the news !</Button></div>
+            <Button onClick={switchToImageHandler}>LET'S READ THE NEWS !</Button></div>
 
         thirdSlide = <div className={classes.ImgSlide}><img className={classes.Pic} src={welcomePic} alt="newss" />
-            <Button onClick={switchToImageHandler}>Let's read the news !</Button></div>
+            <Button onClick={switchToImageHandler}>LET'S READ THE NEWS !</Button></div>
 
         fourthSlide = <div className={classes.ImgSlide}><img className={classes.Pic} src={newsPic} alt="newss" />
-            <Button onClick={switchToImageHandler}>Let's read the news !</Button></div>
+            <Button onClick={switchToImageHandler}>LET'S READ THE NEWS !</Button></div>
 
     } else if (state === false) {
 

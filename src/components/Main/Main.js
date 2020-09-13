@@ -4,8 +4,9 @@ import najava from '../../assets/images/najava.jpg';
 import classes from './Main.module.css';
 import MainSections from '../Main/MainSections/MainSections';
 import SimpleSlider from '../../components/Slider/Slider';
-import Newsletter from '../UI/NewsLetter/Newsletter';
+// import Newsletter from '../UI/NewsLetter/Newsletter';
 import News from '../Slideshow/News';
+import LineUp from '../LineUp/LineUp';
 
 
 class Main extends Component {
@@ -27,9 +28,9 @@ class Main extends Component {
                 </div>
                 <News />
                 <MainSections />
+                <LineUp/>
                 <SimpleSlider />
-                <Newsletter
-                />
+                {/* <Newsletter/> */}
             </div>
         )
     }

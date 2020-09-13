@@ -17,11 +17,11 @@ class MainSection extends Component {
 
                 <div className={classes.MainSection} >
 
-                    <div style={{ marginTop: '10px' }}>
-                        {this.props.text}
+                    <div className={classes.ImgDiv}>
+                        
+                        <div style={{color:'white'}}>{this.props.text}</div>
+                        <Button>{this.props.button}</Button>
                     </div>
-                    <Button >{this.props.button}</Button>
-                    <img className={classes.MainSectionImage} src={this.props.image} alt={this.props.alt} />
                 </div>
             </div>
         )

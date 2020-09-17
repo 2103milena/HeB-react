@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import najava from '../../assets/images/najava.jpg';
+import najava from '../../assets/images/postponed.jpg';
 import classes from './Main.module.css';
 import MainSections from '../Main/MainSections/MainSections';
 import SimpleSlider from '../../components/Slider/Slider';
@@ -27,8 +27,8 @@ class Main extends Component {
 
                 </div>
                 <News />
-                <MainSections />
                 <LineUp/>
+                <MainSections />      
                 <SimpleSlider />
                 {/* <Newsletter/> */}
             </div>

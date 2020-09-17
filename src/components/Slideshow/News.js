@@ -47,16 +47,32 @@ const Slide = () => {
     if (state === true) {
 
         firstSlide = <div className={classes.ImgSlide}><img className={classes.Pic} src={newsPic} alt="newss" />
-        <Button onClick={switchToImageHandler}>LET'S READ THE NEWS !</Button></div>
+            <div className={classes.DivNews}>
+                <div>See the latest and updated news of Havana en Belgrado 10 !</div>
+                <Button onClick={switchToImageHandler}>READ THIS NEWS !</Button>
+            </div>
+        </div>
 
         secondSlide = <div className={classes.ImgSlide}><img className={classes.Pic} src={dianaPic} alt="newss" />
-            <Button onClick={switchToImageHandler}>LET'S READ THE NEWS !</Button></div>
+            <div className={classes.DivNews}>
+                <div>See the latest and updated news of Havana en Belgrado 10 !</div>
+                <Button onClick={switchToImageHandler}>READ THIS NEWS !</Button>
+            </div>
+        </div>
 
         thirdSlide = <div className={classes.ImgSlide}><img className={classes.Pic} src={welcomePic} alt="newss" />
-            <Button onClick={switchToImageHandler}>LET'S READ THE NEWS !</Button></div>
+            <div className={classes.DivNews}>
+                <div>See the latest and updated news of Havana en Belgrado 10 !</div>
+                <Button onClick={switchToImageHandler}>READ THIS NEWS !</Button>
+            </div>
+        </div>
 
         fourthSlide = <div className={classes.ImgSlide}><img className={classes.Pic} src={newsPic} alt="newss" />
-            <Button onClick={switchToImageHandler}>LET'S READ THE NEWS !</Button></div>
+            <div className={classes.DivNews}>
+                <div>See the latest and updated news of Havana en Belgrado 10 !</div>
+                <Button onClick={switchToImageHandler}>READ THIS NEWS !</Button>
+            </div>
+        </div>
 
     } else if (state === false) {
 
@@ -66,19 +82,19 @@ const Slide = () => {
         Jubilant 10th edition of Havana en Belgrado deserves everything best! And we won't settle for less!<br />Stay safe and healthy and we will get back to you soon with more info about dates for 2021.<br /><br />Your HeB Team❤
         </div><Button className={classes.Btn} onClick={switchToTextHandler}>Back to image</Button></div>
 
-        secondSlide = <div className={classes.TextSection}><div className={classes.textCarousel}> We are sad and disappointed to announce that Diana Rodriguez won't be able to come to HeB this year. <br/>As you might have heard, Diana recently got married (Congrats!) and she is in the middle of the process of getting EU permanent residency.<br/> While this process is happening she can't leave EU, and thus is unable to come to Belgrade.<br/> We were working hard trying to find the solutions, but it seems like there is no way around this.
+        secondSlide = <div className={classes.TextSection}><div className={classes.textCarousel}> We are sad and disappointed to announce that Diana Rodriguez won't be able to come to HeB this year. <br />As you might have heard, Diana recently got married (Congrats!) and she is in the middle of the process of getting EU permanent residency.<br /> While this process is happening she can't leave EU, and thus is unable to come to Belgrade.<br /> We were working hard trying to find the solutions, but it seems like there is no way around this.
         <br /><br />Your HEB ❤️
         </div ><Button onClick={switchToTextHandler}>Back to image</Button></div>
 
-        thirdSlide = <div className={classes.TextSection}> <div className={classes.textCarousel}> Are you ready to start your HEB9?!<br/>
-        We are, and we are waiting for you tonight on our well known WELCOME PARTY 😎<br/>
+        thirdSlide = <div className={classes.TextSection}> <div className={classes.textCarousel}> Are you ready to start your HEB9?!<br />
+        We are, and we are waiting for you tonight on our well known WELCOME PARTY 😎<br />
         Totaly new location for HEB9, Club half
-        Everybody is welcome 🎉<br/>if you don’t have one of HEB9 passes don’t hesitate to come 😉
+        Everybody is welcome 🎉<br />if you don’t have one of HEB9 passes don’t hesitate to come 😉
     </div><Button onClick={switchToTextHandler}>Back to image</Button></div>
 
         fourthSlide = <div className={classes.TextSection}><div className={classes.textCarousel}> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         Why do we use it?It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        Why do we use it?It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+        Why do we use it?It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                 </div><Button onClick={switchToTextHandler}>Back to image</Button></div>
     }
 
@@ -88,6 +104,7 @@ const Slide = () => {
             <div className={classes.Naslov}>NEWS</div>
             <hr className={classes.Hr}></hr>
             <Carousel className={classes.Carousel} responsive={responsive}>
+
                 <div className={classes.Slide}>
                     {firstSlide}
                 </div>

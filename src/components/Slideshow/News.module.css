@@ -9,18 +9,17 @@
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-.Carousel{
-    background-color: rgb(15, 15, 15);
-    color: white;
-    box-shadow: 5px 0px 5px 10px black;
-    
+.TextSection{
+    padding: 50px 130px;
 }
 
 .textCarousel{
-
-   
     font-size: 14px;
-    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.Slide{
+    box-shadow: inset 0px 0px 50px rgba(128, 128, 128, 0.9);
 }
 
 @media (max-width: 900px) {
@@ -34,6 +33,16 @@
     }
     .Pic{
         width: 100%;
+        z-index: -2;
+    }
+    Button{
+        margin: 30px 0px;
+    }
+    .ImgSlide{
+        padding: 10px;
+    }
+    .DivNews div{
+        margin: 30px 0px;
     }
 }
 
@@ -60,5 +69,14 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .DivNews{
+        margin: auto;
+    }
+
+    .DivNews div{
+        position: relative;
+        bottom: 40px;
     }
 }

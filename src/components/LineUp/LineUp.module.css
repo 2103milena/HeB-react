@@ -1,9 +1,16 @@
 
 
 .MainSection {
-    /* width: 100%; */
-    background-color: rgb(0, 0, 0);
-    box-shadow: 5px 0px 5px 10px black;
+    box-shadow: inset 0px 0px 50px rgba(128, 128, 128, 0.9);
+}
+
+@media(max-width: 900px){
+    .ImgDiv div{
+        margin: 10px
+    }
+    .ImgDiv div div{
+        padding: 30px 0px;
+    }
 }
 
 @media (min-width: 901px) {
@@ -11,19 +18,17 @@
     .MainSection{
         width: 100%;
     }
-    .ImgDiv{
-        box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
-      
+    .ImgDiv{   
         display: flex;
         align-items: center;
         justify-content: space-between;  
     }
 
-    /* .ImgDiv div{
-        position: relative; 
-        top:150px;
-        font-size: 30px;
-    } */
+    .ImgDiv div{
+        display: block;
+        margin: auto;
+    }
+
     .Pic {
         width: 50%;     
     }

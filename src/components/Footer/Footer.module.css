@@ -8,11 +8,23 @@
 .Twitter,
 .Insta {
     margin: 20px;
+    color: white;
 }
 
 .Social {
     margin: 30px;
     display: inline-block;
+    
+}
+
+.Social p a {
+    color: white;
+    text-decoration: none;
+}
+
+.PreSocial div a {
+    color:white;
+    text-decoration: none;
 }
 
 .PreSocial {

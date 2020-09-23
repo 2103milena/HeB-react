@@ -6,15 +6,14 @@
     box-shadow: 5px 0px 5px 10px black;
 }
 
-.ImgDiv{
-    background-image: url("../../../assets/images/afterr.jpg");
-    background-size: cover;
-}
+
 
 @media(max-width:900px){
     .ImgDiv{
-        height: 400px;
-        padding: 30px;
+        height: 250px;
+        padding: 20px 5px;
+        background-image: url("../../../assets/images/coverrr2.jpg");
+        background-size: cover;
     }
     .ImgDiv div{
         margin-bottom: 15px;
@@ -30,7 +29,8 @@
     .ImgDiv{
         box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
         height: 700px;
-        
+        background-image: url("../../../assets/images/afterr.jpg");
+        background-size: cover;
         position: relative;
         bottom: 15px;
 

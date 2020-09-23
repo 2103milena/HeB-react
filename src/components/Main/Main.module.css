@@ -19,8 +19,12 @@
 .LastPar{
     margin-top: 20px;
 }
-
-@media(min-width: 900px){
+@media(max-width: 900px){
+.Decade{
+    margin: 30px;
+}
+}
+@media(min-width: 901px){
     .Celebrate{
         font-size: 2rem;
     }

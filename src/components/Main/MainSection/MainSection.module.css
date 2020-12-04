@@ -1,22 +1,31 @@
 
-
+.AfterMovieContainer{
+    transform: skew(0, -4deg);
+    background: linear-gradient(to right bottom, 
+    rgba(0, 0, 0, 0.041),
+    rgba(0, 0, 0, 0.212))
+}
 .MainSection {
-    /* width: 100%; */
-    background-color: rgb(0, 0, 0);
-    box-shadow: 5px 0px 5px 10px black;
+    transform: skew(0, 4deg);
+    padding-bottom: 50px;
 }
 
 
-
-@media(max-width:900px){
+@media(max-width: 900px){
     .ImgDiv{
         height: 250px;
         padding: 20px 5px;
         background-image: url("../../../assets/images/coverrr2.jpg");
         background-size: cover;
+        
+        
     }
     .ImgDiv div{
         margin-bottom: 15px;
+    }
+
+    .UnderPic{
+        margin-bottom: -30px;
     }
 }
 
@@ -27,7 +36,7 @@
         padding-top: 30px;     
     }
     .ImgDiv{
-        box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+     
         height: 700px;
         background-image: url("../../../assets/images/afterr.jpg");
         background-size: cover;
@@ -45,10 +54,13 @@
         width: 90%;
         z-index: -2;     
     }
-
-    Button {
-        /* position: relative;
-        top:80px; */
-    }
    
+}
+
+.UnderPic{
+    margin-top: 30px;
+}
+
+.UnderPic div{
+    margin-bottom: 10px;
 }

@@ -1,32 +1,40 @@
+.NewsContainer{
+    transform: skew(0, -4deg);
+    background: linear-gradient(to right bottom, 
+    rgba(0, 0, 0, 0.041),
+    rgba(0, 0, 0, 0.212))
+}
+.Carousel, .Naslov, .Hr{
+    transform: skew(0, 4deg);
+}
+
 .Naslov {
     font-size: 2rem;
     font-weight: bold;
     position: relative;
+   
 }
 .Hr {
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.116)); 
+    
 }
-
-
 
 .textCarousel{
     font-size: 14px;
     margin-bottom: 40px;
 }
 
-.Slide{
-    box-shadow: inset 0px 0px 50px rgba(128, 128, 128, 0.9);
-}
+
 
 @media (max-width: 900px) {
     .Naslov {
-        top: 50px;
+        top: 20px;
     }
 
     .Hr {
-        margin-top: 55px;
+        margin-top: 25px;
         margin-bottom: 60px;
     }
     .Pic{
@@ -80,5 +88,8 @@
     }
     .TextSection{
         padding: 50px 130px;
+    }
+    .Carousel {
+        padding-bottom: 50px;
     }
 }

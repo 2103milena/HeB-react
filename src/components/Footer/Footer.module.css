@@ -1,7 +1,7 @@
 .Footer {
     background-color: black;
     color: honeydew;
-    padding: 30px;
+    padding: 40px;
 }
 
 .Face,
@@ -14,23 +14,26 @@
 .Social {
     margin: 30px;
     display: inline-block;
-    
 }
 
 .Social p a {
     color: white;
-    text-decoration: none;
+    text-decoration: none;  
 }
 
 .PreSocial div a {
     color:white;
-    text-decoration: none;
+    text-decoration: none; 
+    text-decoration: underline rgba(255, 255, 255, 0.552);
+    
 }
+
 
 .PreSocial {
     display: inline-block;
     margin-right: 100px;
     margin-left: 100px;
+    line-height: 30px;
 }
 
 @media (min-width: 900px) {

@@ -10,18 +10,19 @@ class MainSection extends Component {
     render() {
 
         return (
-            <div>
-                <MainTitle>
+            <div className={classes.AfterMovieContainer}>
+                <MainTitle >
                     {this.props.title}
                 </MainTitle>
 
                 <div className={classes.MainSection} >
-
                     <div className={classes.ImgDiv}>
-                        
-                        <div style={{color:'white'}}>{this.props.text}</div>
+                    </div>
+                    <div className={classes.UnderPic}>
+                        <div>{this.props.text}</div>
                         <Button>{this.props.button}</Button>
                     </div>
+
                 </div>
             </div>
         )

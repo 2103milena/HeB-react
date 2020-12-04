@@ -1,7 +1,10 @@
+.LineUpContainer{
+    transform: skew(0, -4deg);
+}
 
-
-.MainSection {
-    box-shadow: inset 0px 0px 50px rgba(128, 128, 128, 0.9);
+.MainSection{
+    transform: skew(0, 4deg);
+    padding-bottom: 50px;
 }
 
 @media(max-width: 900px){

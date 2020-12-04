@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import classes from './LineUp.module.css';
-import lineUpPic from '../../assets/images/grupnaa.jpg';
-import Button from '../UI/Button/Button';
 import MainTitle from '../Main/MainTitle/MainTitle';
 import Participants from '../Main/PageArtists/Participants/Participants';
 
@@ -11,8 +9,8 @@ class LineUp extends Component {
     render() {
 
         return (
-            <div>
-                <MainTitle>
+            <div className={classes.LineUpContainer}>
+                <MainTitle className={classes.Title}>
                     LINE UP
                 </MainTitle>
 

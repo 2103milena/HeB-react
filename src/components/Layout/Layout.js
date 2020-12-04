@@ -8,6 +8,7 @@ import PageArtists from '../../components/Main/PageArtists/PageArtists';
 import PageProgram from '../Main/PageProgram/PageProgram';
 import PageHotel from '../Main/PageHotel/PageHotel';
 import PagePrices from '../Main/PagePrices/PagePrices';
+import PageContact from '../Main/PageContact/PageContact';
 
 
 class Layout extends Component {
@@ -49,6 +50,7 @@ class Layout extends Component {
                     <Route path="/program" component={PageProgram} />
                     <Route path="/hotel" component={PageHotel} />
                     <Route path="/price" component={PagePrices} />
+                    <Route path="/contact" component={PageContact}/>
                     <Route path="/" component={Main} />
 
                 </Switch>

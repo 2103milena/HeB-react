@@ -11,9 +11,9 @@ import {
 const Footer = () => {
   return (
     <div className={classes.Footer}>
-<Logo />
+      <Logo />
       <div className={classes.PreSocial}>
-        
+
         <div><a href="#">Available passes</a></div>
         <div><a href="#">News</a></div>
         <div><a href="#">Program 2020</a></div>
@@ -33,7 +33,7 @@ const Footer = () => {
         <p><a href="mailto:havanaenbelgrado@gmail.com">havanaenbelgrado@gmail.com</a></p>
       </div>
 
-      
+
     </div>
 
   )

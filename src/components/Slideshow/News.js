@@ -100,9 +100,10 @@ const Slide = () => {
 
 
     return (
-        <div >
+        <div className={classes.NewsContainer}>
             <div className={classes.Naslov}>NEWS</div>
             <hr className={classes.Hr}></hr>
+          
             <Carousel className={classes.Carousel} responsive={responsive}>
 
                 <div className={classes.Slide}>
